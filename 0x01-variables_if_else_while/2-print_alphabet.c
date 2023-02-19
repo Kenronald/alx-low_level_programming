@@ -2,18 +2,16 @@
 #include<time.h>
 #include<stdlib.h>
 /**
-*main - A program that prints last digits
+*main - A program that prints lower letters
 *Return: 0 (Exit_SUCCESS)
 */
 int main(void)
 {
-char c, aa;
-c = 'a';
-aa = '\n';
-while (c <= 'z')
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
-putchar(aa);
-c = c + 1;
+putchar('\n');
 }
+return (0);
 }
