@@ -17,7 +17,7 @@ putchar((i % 10) + '0');
 putchar(' ');
 putchar((a / 10) + '0');
 putchar((a % 10) + '0');
-if (i == '98' && a == '99')
+if (i == 98 && a == 99)
 continue;
 putchar(',');
 putchar(' ');
